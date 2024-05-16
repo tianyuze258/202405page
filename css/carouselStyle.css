@@ -1,0 +1,77 @@
+/* 师大要闻的轮播师大要闻的轮播师大要闻的轮播师大要闻的轮播师大要闻的轮播师大要闻的轮播 */
+/* 去除a标签的下划线 */
+a {
+    text-decoration: none;
+}
+
+.container {
+    position: absolute;
+    width: 439px;
+    height: 304px;
+    border-radius: 0px 0px 0px 0px;
+    margin: 100px auto 0 auto;
+    box-shadow: 0 0 5px mediumpurple;
+    overflow: hidden;
+    margin: 0;
+}
+
+.wrap {
+    position: absolute;
+    width: 4200px;
+    height: 400px;
+    z-index: 1;
+}
+
+.container .wrap img {
+    float: left;
+    width: 600px;
+    height: 400px;
+}
+
+.container .buttons {
+    position: absolute;
+    right: 150px;
+    bottom: 20px;
+    width: 200px;
+    height: 10px;
+    z-index: 2;
+}
+
+.container .buttons span {
+    margin-left: 5px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 50px;
+    background-color: white;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+}
+
+.container .buttons span.on {
+    background-color: rgb(0, 26, 255);
+}
+
+.container .arrow {
+    position: absolute;
+    top: 36%;
+    color: #C1C9DA;
+    padding: 0 12px;
+    border-radius: 50%;
+    font-size: 50px;
+    z-index: 2;
+}
+
+.container .arrow_left {
+    left: 10px;
+}
+
+.container .arrow_right {
+    right: 10px;
+}
+
+.container .arrow:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
